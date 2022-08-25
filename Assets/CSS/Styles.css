@@ -1,0 +1,17 @@
+header{
+    border: 1px solid black;
+    position: relative;
+}
+header>img {
+    width: 170px;
+}
+
+header>nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 10px;
+}
